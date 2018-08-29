@@ -6,12 +6,7 @@ import java.util.Date;
 import java.util.List;
 import java.util.Map;
 
-import org.testng.IReporter;
-import org.testng.IResultMap;
-import org.testng.ISuite;
-import org.testng.ISuiteResult;
-import org.testng.ITestContext;
-import org.testng.ITestResult;
+import org.testng.*;
 import org.testng.xml.XmlSuite;
 
 import com.relevantcodes.extentreports.ExtentReports;
@@ -73,6 +68,8 @@ public class ExtentReportListener implements IReporter
 		calendar.setTimeInMillis(millis);
 		return calendar.getTime();
 	}
+
+	
 	
 	
 	
