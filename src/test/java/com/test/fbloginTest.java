@@ -37,6 +37,13 @@ public class fbloginTest
 		System.out.println(flag);
 	}
 	
+	@Test(priority=3)
+	public void validatetitle()
+	{
+		fblogin fbb=new fblogin(driver);
+		fbb.title();
+	}
+	
 	
 	@AfterMethod
 	public void end()

@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Facebook Application Automation Test Suite]">
-  <listeners>
-    <listener class-name="ExtentReportListener.ExtentReportListener"/>
-  </listeners>
-  <test thread-count="5" name="Facebook Application Test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="com.test.fbloginTest">
         <methods>
           <include name="start"/>
           <include name="end"/>
           <include name="validatelogo"/>
+          <include name="validatetitle"/>
         </methods>
       </class> <!-- com.test.fbloginTest -->
     </classes>
-  </test> <!-- Facebook Application Test(failed) -->
-</suite> <!-- Failed suite [Facebook Application Automation Test Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

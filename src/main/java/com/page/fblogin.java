@@ -14,6 +14,7 @@ import org.openqa.selenium.support.PageFactory;
  */
 public class fblogin
 {
+	WebDriver driver;
 	@FindBy(id="email")
 	private WebElement uname;
 	
@@ -43,6 +44,12 @@ public class fblogin
 	public boolean logo()
 	{
 		return fblogo.isDisplayed();
+	}
+	
+	public void title()
+	{
+		System.out.println(driver.getTitle());
+		
 	}
 	
 }

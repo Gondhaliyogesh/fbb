@@ -6,9 +6,9 @@
       <class name="com.test.fbloginTest">
         <methods>
           <include name="start"/>
-          <include name="validatelogin"/>
           <include name="end"/>
           <include name="validatelogo"/>
+          <include name="validatetitle"/>
         </methods>
       </class> <!-- com.test.fbloginTest -->
     </classes>
