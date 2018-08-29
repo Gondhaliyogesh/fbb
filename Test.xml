@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Facebook Application Automation Test Suite">
+
+	<listeners>
+		<listener
+			class-name="ExtentReportListener.ExtentReportListener" />
+	</listeners>
+
+	<test name="Facebook Application Test">
+		<classes>
+			<class name="com.test.fbloginTest" />
+			
+			
+
+		</classes>
+	</test>
+</suite>
